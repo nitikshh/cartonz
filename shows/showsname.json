@@ -2,7 +2,8 @@
   "Shows": [
     {
       "Name": "Transformers Prime",
-      "ImageURL": "https://m.media-amazon.com/images/I/91aV7OU0b9L._AC_UF1000,1000_QL80_.jpg"
+      "ImageURL": "https://m.media-amazon.com/images/I/91aV7OU0b9L._AC_UF1000,1000_QL80_.jpg",
+      "VideoList":"https://nitikshh.github.io/cartonz/shows/transformers_prime_show_animated.json"
     },
     {
       "Name": "Slugterra",
