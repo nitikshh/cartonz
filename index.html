@@ -102,40 +102,29 @@
         }
 
         // Function called when the player is ready
-        function onPlayerReady(event) {
-            // Attach event listener to the play/stop button
-            document.getElementById('playStopButton').addEventListener('click', function () {
-                if (player.getPlayerState() === YT.PlayerState.PLAYING) {
-                    player.pauseVideo();
-                    clearInterval(updateSeekbarInterval);
-                    document.getElementById('playStopButton').innerText = 'Play';
-                } else {
-                    player.playVideo();
-                    updateSeekbarInterval = setInterval(updateSeekbar, 1000); // Update seekbar every second
-                    document.getElementById('playStopButton').innerText = 'Stop';
-                }
-            });
+        // Function called when the player is ready
+    function onPlayerReady(event) {
+        // Attach event listener to the play/stop button
+        document.getElementById('playStopButton').addEventListener('click', function () {
+            if (player.getPlayerState() === YT.PlayerState.PLAYING) {
+                player.pauseVideo();
+                clearInterval(updateSeekbarInterval);
+                document.getElementById('playStopButton').innerText = 'Play';
+            } else {
+                player.playVideo();
+                updateSeekbarInterval = setInterval(updateSeekbar, 1000); // Update seekbar every second
+                document.getElementById('playStopButton').innerText = 'Stop';
+            }
+        });
+    }
 
-            // Attach event listener to the seekbar
-            var seekbar = document.getElementById('seekbar');
-            seekbar.addEventListener('click', function (e) {
-                var rect = seekbar.getBoundingClientRect();
-                var percentage = (e.clientX - rect.left) / rect.width;
-                var seekToSeconds = player.getDuration() * percentage;
-                player.seekTo(seekToSeconds, true);
-            });
-
-            // Start updating seekbar
-            updateSeekbarInterval = setInterval(updateSeekbar, 1000);
-        }
-
-        // Function to update the seekbar
-        function updateSeekbar() {
-            var seekbar = document.getElementById('seekbar');
-            var progress = document.querySelector('#seekbar .progress');
-            var percentage = (player.getCurrentTime() / player.getDuration()) * 100;
-            progress.style.width = percentage + '%';
-        }
+    // Function to update the seekbar
+    function updateSeekbar() {
+        var seekbar = document.getElementById('seekbar');
+        var progress = document.querySelector('#seekbar .progress');
+        var percentage = (player.getCurrentTime() / player.getDuration()) * 100;
+        progress.style.width = percentage + '%';
+    }
     </script>
 </body>
 
