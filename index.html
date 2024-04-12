@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Custom YouTube Video Player</title>
     <style>
-        * {
+        *{
             margin: 0;
             padding: 0;
         }
-
         #player {
             width: 100%;
             height: 100vh;
             position: relative;
+           
         }
 
         #controls {
@@ -54,23 +54,42 @@
 <body>
     <div id="player"></div>
     <div id="controls">
-        <button id="playStopButton" onclick="playOrStopVideo()">Play</button>
+        <button id="playStopButton">Play</button>
         <div id="seekbar">
             <div class="progress"></div>
         </div>
     </div>
 
     <script>
-        // Initialize variables
+        // http://127.0.0.1:5500/index.html?videoid=hwKX77_fHcY&apikey=AIzaSyBc9GkZa27vuZ7BnXThYC_XYkEFH2yt2W8
+
+        // Parse video ID and API key from URL query parameters
+        var searchParams = new URLSearchParams(window.location.search);
+        var videoId = searchParams.get('videoid');
+        var apiKey = searchParams.get('apikey');
+
+        // If video ID or API key is missing, use default values
+        if (!videoId || !apiKey) {
+            videoId = 'YOUR_YOUTUBE_VIDEO_ID'; // Default video ID
+            apiKey = 'YOUR_DEFAULT_API_KEY'; // Default API key
+        }
+
+        // Create variables for the player and the interval used for updating seekbar
         var player;
         var updateSeekbarInterval;
+
+        // Load the YouTube IFrame Player API code asynchronously
+        var tag = document.createElement('script');
+        tag.src = 'https://www.youtube.com/iframe_api';
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
         // Function called when the YouTube API code is loaded
         function onYouTubeIframeAPIReady() {
             player = new YT.Player('player', {
                 height: '360',
                 width: '640',
-                videoId: 'YOUR_VIDEO_ID', // Replace 'YOUR_VIDEO_ID' with the actual video ID
+                videoId: videoId,
                 playerVars: {
                     'controls': 0, // Hide default controls
                     'autoplay': 0, // Do not autoplay the video initially
@@ -83,19 +102,10 @@
         }
 
         // Function called when the player is ready
-        function onPlayerReady(event) {
-            // Attach event listener to the seekbar
-            var seekbar = document.getElementById('seekbar');
-            seekbar.addEventListener('click', function (e) {
-                var rect = seekbar.getBoundingClientRect();
-                var percentage = (e.clientX - rect.left) / rect.width;
-                var seekToSeconds = player.getDuration() * percentage;
-                player.seekTo(seekToSeconds, true);
-            });
-        }
-
-        // Function to play or stop the video
-        function playOrStopVideo() {
+        // Function called when the player is ready
+    function onPlayerReady(event) {
+        // Attach event listener to the play/stop button
+        document.getElementById('playStopButton').addEventListener('click', function () {
             if (player.getPlayerState() === YT.PlayerState.PLAYING) {
                 player.pauseVideo();
                 clearInterval(updateSeekbarInterval);
@@ -105,15 +115,16 @@
                 updateSeekbarInterval = setInterval(updateSeekbar, 1000); // Update seekbar every second
                 document.getElementById('playStopButton').innerText = 'Stop';
             }
-        }
+        });
+    }
 
-        // Function to update the seekbar
-        function updateSeekbar() {
-            var seekbar = document.getElementById('seekbar');
-            var progress = document.querySelector('#seekbar .progress');
-            var percentage = (player.getCurrentTime() / player.getDuration()) * 100;
-            progress.style.width = percentage + '%';
-        }
+    // Function to update the seekbar
+    function updateSeekbar() {
+        var seekbar = document.getElementById('seekbar');
+        var progress = document.querySelector('#seekbar .progress');
+        var percentage = (player.getCurrentTime() / player.getDuration()) * 100;
+        progress.style.width = percentage + '%';
+    }
     </script>
 </body>
 
