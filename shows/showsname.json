@@ -1,6 +1,18 @@
 {
   "Shows": [
     {
+      "Name": "Transformers Prime",
+      "ImageURL": "https://m.media-amazon.com/images/I/91aV7OU0b9L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "Name": "Slugterra",
+      "ImageURL": "https://i.pinimg.com/736x/ae/85/2e/ae852e2239824726d60d8bf15e053247.jpg"
+    },
+    {
+      "Name": "Supa Strikas",
+      "ImageURL": "https://m.media-amazon.com/images/M/MV5BYTg3ZjllNmQtODcyNi00ZjU1LTkyMmItZjA0MzJjMzRjODJlXkEyXkFqcGdeQXVyMTAwMTYyNjE0._V1_.jpg"
+    },
+    {
       "Name": "Battle Force 5",
       "ImageURL": "https://m.media-amazon.com/images/M/MV5BOTQ3MDlhZDAtYWFkZC00NmY4LTliNjQtNjNmYmIxYzRjZTI3XkEyXkFqcGdeQXVyODk1MjAxNzQ@._V1_.jpg"
     },
