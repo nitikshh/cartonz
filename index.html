@@ -51,12 +51,11 @@
                 width: '640',
                 videoId: videoId,
                 playerVars: {
-                    'controls': 0, // Hide default controls
-                    'autoplay': 0, // Do not autoplay the video initially
-                    'disablekb': 1, // Disable keyboard controls
+                     'controls': 1, // Show player controls
                     'showinfo': 0, // Hide video title and uploader
-                    'rel': 0, // Do not show related videos
-                    'fs': 0 // Hide fullscreen button
+                    'modestbranding': 0, // Show YouTube logo
+                    'fs': 0, // Hide fullscreen button
+                    'rel': 0 // Don't show related videos at the end
                 },
                 events: {
                     'onReady': onPlayerReady
