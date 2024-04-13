@@ -37,23 +37,28 @@
     },
     {
       "Name": "Masha and the Bear",
-      "ImageURL": "https://m.media-amazon.com/images/M/MV5BOTBkNWQ3OWEtYjUyNy00ODBmLWE3ZTMtOWJhZWYyMmE2MGI1XkEyXkFqcGdeQXVyNzMwOTY2NTI@._V1_FMjpg_UX1000_.jpg"
+      "ImageURL": "https://m.media-amazon.com/images/M/MV5BOTBkNWQ3OWEtYjUyNy00ODBmLWE3ZTMtOWJhZWYyMmE2MGI1XkEyXkFqcGdeQXVyNzMwOTY2NTI@._V1_FMjpg_UX1000_.jpg",
+       "VideoList":"https://nitikshh.github.io/cartonz/shows/masha_and_the_bear_show.json"
     },
     {
       "Name": "The Berenstain Bears",
-      "ImageURL": "https://m.media-amazon.com/images/I/71I0Tw4rOsL.jpg"
+      "ImageURL": "https://m.media-amazon.com/images/I/71I0Tw4rOsL.jpg",
+       "VideoList":"https://nitikshh.github.io/cartonz/shows/The_Berenstain_Bears_show.json"
     },
     {
       "Name": "Miniforce",
-      "ImageURL": "https://m.media-amazon.com/images/M/MV5BNTdjMTA0MjktMTBlYy00YmM0LWI5NTAtMzFjYmQyMTk3YjM4XkEyXkFqcGdeQXVyMzU0ODY0NDk@._V1_.jpg"
+      "ImageURL": "https://m.media-amazon.com/images/M/MV5BNTdjMTA0MjktMTBlYy00YmM0LWI5NTAtMzFjYmQyMTk3YjM4XkEyXkFqcGdeQXVyMzU0ODY0NDk@._V1_.jpg",
+       "VideoList":"https://nitikshh.github.io/cartonz/shows/miniforce_show.json"
     },
     {
       "Name": "Ninja Hattori",
-      "ImageURL": "https://m.media-amazon.com/images/M/MV5BODlkMzM0ZmQtM2YyMC00NGFiLTgxNGMtNTljN2EzM2EzYjJmXkEyXkFqcGdeQXVyMzkzODQwMA@@._V1_FMjpg_UX1000_.jpg"
+      "ImageURL": "https://m.media-amazon.com/images/M/MV5BODlkMzM0ZmQtM2YyMC00NGFiLTgxNGMtNTljN2EzM2EzYjJmXkEyXkFqcGdeQXVyMzkzODQwMA@@._V1_FMjpg_UX1000_.jpg",
+       "VideoList":"https://nitikshh.github.io/cartonz/shows/ninja_hattori_show.json"
     },
     {
       "Name": "Motu Patlu",
-      "ImageURL": "https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/z/n/f/medium-poster-motu-patlu-ki-shandar-jodi-cartoon-hd-wallpaper-original-imaguy36rnfhhdpw.jpeg?q=20&crop=false"
+      "ImageURL": "https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/z/n/f/medium-poster-motu-patlu-ki-shandar-jodi-cartoon-hd-wallpaper-original-imaguy36rnfhhdpw.jpeg?q=20&crop=false",
+       "VideoList":"https://nitikshh.github.io/cartonz/shows/motu_patlu_show.json"
     },
     {
       "Name": "Shiva",
@@ -97,7 +102,8 @@
     },
     {
       "Name": "Munki and Trunk",
-      "ImageURL": "https://www.kidsfirst.org/kidsfirstnews/wp-content/uploads/2019/04/Munkiandtrunk.jpg"
+      "ImageURL": "https://www.kidsfirst.org/kidsfirstnews/wp-content/uploads/2019/04/Munkiandtrunk.jpg",
+       "VideoList":"https://nitikshh.github.io/cartonz/shows/munki_and_trunk_show.json"
     },
     {
       "Name": "Vikram and Munja",
