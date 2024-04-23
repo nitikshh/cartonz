@@ -1,7 +1,7 @@
 {
   "ad_manager": [
     {
-      "serve_ads": "No"
+      "serve_ads": "Yes"
     }
   ]
 }
