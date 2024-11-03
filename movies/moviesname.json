@@ -1,82 +1,72 @@
 [
     {
-      id: 1,
-      title: 'Inception',
-      rating: 8.8,
-      duration: '2h 28min',
-      likes: 2100000,
-      imagePortrait: 'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg',
-      imageHorizontal: 'https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg',
-      genre: 'Sci-Fi'
+      "id": 1,
+      "title": "Inception",
+      "rating": 8.8,
+      "duration": "2h 28min",
+      "likes": 2100000,
+      "imagePortrait": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
+      "imageHorizontal": "https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg",
+      "genre": "Sci-Fi"
     },
     {
-      id: 2,
-      title: 'The Matrix',
-      rating: 8.7,
-      duration: '2h 16min',
-      likes: 1800000,
-      imagePortrait: 'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg',
-      imageHorizontal: 'https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg',
-      genre: 'Action'
+      "id": 2,
+      "title": "The Matrix",
+      "rating": 8.7,
+      "duration": "2h 16min",
+      "likes": 1800000,
+      "imagePortrait": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
+      "imageHorizontal": "https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg",
+      "genre": "Action"
     },
     {
-      id: 3,
-      title: 'Interstellar',
-      rating: 8.6,
-      duration: '2h 49min',
-      likes: 1600000,
-      imagePortrait: 'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg',
-      imageHorizontal: 'https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg',
-      genre: 'Adventure'
+      "id": 3,
+      "title": "Interstellar",
+      "rating": 8.6,
+      "duration": "2h 49min",
+      "likes": 1600000,
+      "imagePortrait": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
+      "imageHorizontal": "https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg",
+      "genre": "Adventure"
     },
     {
-      id: 4,
-      title: 'The Dark Knight',
-      rating: 9.0,
-      duration: '2h 32min',
-      likes: 2300000,
-      imagePortrait: 'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg',
-      imageHorizontal: 'https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg',
-      genre: 'Action'
+      "id": 4,
+      "title": "The Dark Knight",
+      "rating": 9.0,
+      "duration": "2h 32min",
+      "likes": 2300000,
+      "imagePortrait": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
+      "imageHorizontal": "https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg",
+      "genre": "Action"
     },
     {
-      id: 5,
-      title: 'Pulp Fiction',
-      rating: 8.9,
-      duration: '2h 34min',
-      likes: 1900000,
-      imagePortrait: 'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg',
-      imageHorizontal: 'https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg',
-      genre: 'Crime'
+      "id": 5,
+      "title": "Pulp Fiction",
+      "rating": 8.9,
+      "duration": "2h 34min",
+      "likes": 1900000,
+      "imagePortrait": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
+      "imageHorizontal": "https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg",
+      "genre": "Crime"
     },
     {
-      id: 6,
-      title: 'Forrest Gump',
-      rating: 8.8,
-      duration: '2h 22min',
-      likes: 2000000,
-      imagePortrait: 'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg',
-      imageHorizontal: 'https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg',
-      genre: 'Drama'
+      "id": 6,
+      "title": "Forrest Gump",
+      "rating": 8.8,
+      "duration": "2h 22min",
+      "likes": 2000000,
+      "imagePortrait": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
+      "imageHorizontal": "https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg",
+      "genre": "Drama"
     },
     {
-      id: 7,
-      title: 'The Shawshank Redemption',
-      rating: 9.3,
-      duration: '2h 22min',
-      likes: 2400000,
-      imagePortrait: 'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg',
-      imageHorizontal: 'https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg',
-      genre: 'Drama'
-    },
-    {
-      id: 8,
-      title: 'The Godfather',
-      rating: 9.2,
-      duration: '2h 55min',
-      likes: 1700000,
-      imagePortrait: 'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg',
-      imageHorizontal: 'https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg',
-      genre: 'Crime'
+      "id": 7,
+      "title": "The Shawshank Redemption",
+      "rating": 9.3,
+      "duration": "2h 22min",
+      "likes": 2400000,
+      "imagePortrait": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
+      "imageHorizontal": "https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg",
+      "genre": "Drama"
     }
-  ]
+]
