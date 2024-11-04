@@ -1,72 +1,70 @@
 [
     {
-      "id": 1,
-      "title": "Inception",
-      "rating": 8.8,
-      "duration": "2h 28min",
-      "likes": 2100000,
-      "imagePortrait": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
-      "imageHorizontal": "https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg",
-      "genre": "Sci-Fi"
+        "id": 1,
+        "title": "Inception",
+        "rating": 8.8,
+        "voteCount": 2173655,
+        "genres": ["Action", "Sci-Fi", "Thriller"],
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
+        "overview": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+        "releaseDate": "July 16, 2010",
+        "runtime": 148,
+        "awards": "4 Oscars",
+        "likes": 2100000,
+        "cast": [
+            { "name": "Leonardo DiCaprio", "character": "Cobb", "image": "https://picsum.photos/200/200" },
+            { "name": "Joseph Gordon-Levitt", "character": "Arthur", "image": "https://picsum.photos/200/200" },
+            { "name": "Ellen Page", "character": "Ariadne", "image": "https://picsum.photos/200/200" },
+            { "name": "Tom Hardy", "character": "Eames", "image": "https://picsum.photos/200/200" }
+        ],
+        "reviews": [
+            { "id": 1, "author": "MovieBuff123", "rating": 9.5, "content": "Mind-bending and visually stunning. Nolan at his best!" },
+            { "id": 2, "author": "CinemaFanatic", "rating": 8.0, "content": "Complex plot, but rewarding if you pay attention." },
+            { "id": 3, "author": "FilmCritic2022", "rating": 9.0, "content": "A masterpiece of modern cinema. The visuals are breathtaking." }
+        ]
     },
     {
-      "id": 2,
-      "title": "The Matrix",
-      "rating": 8.7,
-      "duration": "2h 16min",
-      "likes": 1800000,
-      "imagePortrait": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
-      "imageHorizontal": "https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg",
-      "genre": "Action"
+        "id": 2,
+        "title": "The Matrix",
+        "rating": 8.7,
+        "voteCount": 1750000,
+        "genres": ["Action", "Sci-Fi"],
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzQzZTJlOTMtYmFiZS00MTUxLTlhNWMtZWM0MjI0MmM5NmM0XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_FMjpg_UX1000_.jpg",
+        "overview": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+        "releaseDate": "March 31, 1999",
+        "runtime": 136,
+        "awards": "4 Oscars",
+        "likes": 1800000,
+        "cast": [
+            { "name": "Keanu Reeves", "character": "Neo", "image": "https://picsum.photos/200/200" },
+            { "name": "Laurence Fishburne", "character": "Morpheus", "image": "https://picsum.photos/200/200" },
+            { "name": "Carrie-Anne Moss", "character": "Trinity", "image": "https://picsum.photos/200/200" }
+        ],
+        "reviews": [
+            { "id": 1, "author": "SciFiFan", "rating": 9.0, "content": "A groundbreaking movie with stunning visuals and a thought-provoking storyline." },
+            { "id": 2, "author": "TechLover", "rating": 8.5, "content": "A classic that defined the genre. Still amazing!" }
+        ]
     },
     {
-      "id": 3,
-      "title": "Interstellar",
-      "rating": 8.6,
-      "duration": "2h 49min",
-      "likes": 1600000,
-      "imagePortrait": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
-      "imageHorizontal": "https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg",
-      "genre": "Adventure"
-    },
-    {
-      "id": 4,
-      "title": "The Dark Knight",
-      "rating": 9.0,
-      "duration": "2h 32min",
-      "likes": 2300000,
-      "imagePortrait": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
-      "imageHorizontal": "https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg",
-      "genre": "Action"
-    },
-    {
-      "id": 5,
-      "title": "Pulp Fiction",
-      "rating": 8.9,
-      "duration": "2h 34min",
-      "likes": 1900000,
-      "imagePortrait": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
-      "imageHorizontal": "https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg",
-      "genre": "Crime"
-    },
-    {
-      "id": 6,
-      "title": "Forrest Gump",
-      "rating": 8.8,
-      "duration": "2h 22min",
-      "likes": 2000000,
-      "imagePortrait": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
-      "imageHorizontal": "https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg",
-      "genre": "Drama"
-    },
-    {
-      "id": 7,
-      "title": "The Shawshank Redemption",
-      "rating": 9.3,
-      "duration": "2h 22min",
-      "likes": 2400000,
-      "imagePortrait": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
-      "imageHorizontal": "https://dianaurban.com/wp-content/uploads/2010/07/inception.jpg",
-      "genre": "Drama"
+        "id": 3,
+        "title": "Interstellar",
+        "rating": 8.6,
+        "voteCount": 1580000,
+        "genres": ["Adventure", "Drama", "Sci-Fi"],
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjIxOTU5MzM0Ml5BMl5BanBnXkFtZTgwMzM4ODI3MTE@._V1_FMjpg_UX1000_.jpg",
+        "overview": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "releaseDate": "November 7, 2014",
+        "runtime": 169,
+        "awards": "1 Oscar",
+        "likes": 1600000,
+        "cast": [
+            { "name": "Matthew McConaughey", "character": "Cooper", "image": "https://picsum.photos/200/200" },
+            { "name": "Anne Hathaway", "character": "Brand", "image": "https://picsum.photos/200/200" },
+            { "name": "Jessica Chastain", "character": "Murph", "image": "https://picsum.photos/200/200" }
+        ],
+        "reviews": [
+            { "id": 1, "author": "SpaceLover", "rating": 9.2, "content": "An epic space adventure with stunning visuals and a deep message." },
+            { "id": 2, "author": "MovieCritic2022", "rating": 8.5, "content": "A thought-provoking journey through space and time." }
+        ]
     }
 ]
